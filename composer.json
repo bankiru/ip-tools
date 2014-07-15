@@ -1,0 +1,32 @@
+{
+    "name": "bankiru/ip-tools",
+    "description": "ip range, cidr, netmask functions",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "ip",
+        "ip range",
+        "cidr",
+        "netmask"
+    ],
+    "authors": [
+        {
+            "name": "Boris Gorbylev",
+            "email": "ekho@ekho.name"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*",
+        "fabpot/php-cs-fixer": "0.4.*",
+        "satooshi/php-coveralls": "0.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bankiru\\IPTools\\": ["src","tests"]
+        }
+    }
+}
