@@ -44,7 +44,7 @@ class Wildcard implements RangeConverterInterface
         $end = explode('.', (string) $range->getEnd());
 
         $wildcard = array();
-        for ($i=0; $i<count($start); $i++) {
+        for ($i=0; $i<4; $i++) {
             $byteS = $start[$i];
             $byteE = $end[$i];
 
