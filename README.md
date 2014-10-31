@@ -18,7 +18,7 @@ IP Tools - utils for manipulating with IP addresses [![Build Status](https://tra
 
 ### Github
 
-Releases of IP Tools are available on [Github](https://github.com/tedious/bankiru/ip-tools).
+Releases of IP Tools are available on [Github](https://github.com/bankiru/ip-tools).
 
 
 ## Documentation
